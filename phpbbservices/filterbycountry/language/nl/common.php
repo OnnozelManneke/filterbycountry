@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'ACP_FBC_DOWNLOAD_ERROR'			=> 'Kon niet downloaden: %1$s',
 	'ACP_FBC_FROM'						=> 'van ',	
 	'ACP_FBC_IP_NOT_FOUND'				=> 'VPN services toestaan',
-	'ACP_FBC_IP_NOT_FOUND_EXPLAIN'		=> 'Als de IP adressen van een gebruiker zich niet in de database bevinden, is dit hoogstwaarschijnlijk omdat deze is gekoppeld aan een VPN service (Virtueel Privé Netwerk). Als u deze optie inschakelt, kunnen gebruikers gebruikmaken van VPN services, maar kunnen ook spammers toegang krijgen.',
+	'ACP_FBC_IP_NOT_FOUND_EXPLAIN'		=> 'Als de IP adressen van een gebruiker niet in de database staan, is dit waarschijnlijk van een VPN service (Virteel Privé Netwerk). Als u deze optie inschakelt, kunnen gebruikers gebruikmaken van VPN services, maar kunnen ook spammers toegang krijgen.',
 	'ACP_FBC_KEEP_STATISTICS'			=> 'Statistieken bijhouden',
 	'ACP_FBC_KEEP_STATISTICS_EXPLAIN'	=> 'Indien ja, worden statistieken bijgehouden voor het aantal toegestane en geweigerde paginaverzoeken per landcode. <em>Waarschuwing</em>: Deze statistieken kunnen veel databaseruimte gebruiken. <em>Als u dit op Nee instelt, worden alle statistieken gewist.</em>',
 	'ACP_FBC_LAST_1_HOURS'				=> 'In het laatste uur',
@@ -338,6 +338,6 @@ $lang = array_merge($lang, array(
 	'ACP_FBC_SERIOUS_MAXMIND_ERROR'		=> 'Serious error with MaxMind database used by phpBB Filter by country extension',
 	'ACP_FBC_SETTING_SAVED'				=> 'Instellingen zijn succesvol opgeslagen!',
 	'ACP_FBC_TO'						=> ' naar ',
-	'ACP_FBC_UNKNOWN'					=> 'Onbekend',	
+	'ACP_FBC_UNKNOWN'					=> 'VPN (onbekend)',	
 	'ACP_FBC_UNSELECT_ALL'				=> 'Deselecteer alle landcodes',
 ));
