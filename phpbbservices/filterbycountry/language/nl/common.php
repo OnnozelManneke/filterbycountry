@@ -336,7 +336,6 @@ $lang = array_merge($lang, array(
 	'ACP_FBC_REQUIREMENTS'				=> 'Om deze extensie te installeren, moeten zowel de PHP curl extensie als de allow_url_fopen zijn ingeschakeld. De volgende PHP extensies zijn vereist: curl, dom en Phar. Deze extensie werkt alleen met phpBB 3.2',
 	'ACP_FBC_RESTRICT'					=> 'Weigeren',
 	'ACP_FBC_RESTRICTED'				=> 'Geweigerde paginaverzoeken',
-	'ACP_FBC_SERIOUS_MAXMIND_ERROR'		=> 'Ernstige fout met MaxMind database gebruikt door phpBB Filteren op landextensie',
 	'ACP_FBC_SETTING_SAVED'				=> 'Instellingen zijn succesvol opgeslagen!',
 	'ACP_FBC_TO'						=> ' naar ',
 	'ACP_FBC_UNKNOWN'					=> 'VPN (onbekend)',
