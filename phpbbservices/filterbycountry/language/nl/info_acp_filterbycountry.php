@@ -3,7 +3,7 @@
  *
  * Filter by country. An extension for the phpBB Forum Software package.
  *
- * @copyright (c) 2019, Mark D. Hamill, https://www.phpbbservices.com
+ * @copyright (c) 2020, Mark D. Hamill, https://www.phpbbservices.com
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  */
@@ -31,7 +31,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// » “ “ …
 //
 
 $lang = array_merge($lang, array(
@@ -51,6 +51,7 @@ $lang = array_merge($lang, array(
 	'LOG_ACP_FBC_FILTERBYCOUNTRY_SETTINGS'	=> '<strong>Filter op landinstellingen bijgewerkt</strong>',
 	'LOG_ACP_FBC_FOPEN_ERROR'				=> '<strong>Kon het bestand niet openen: %1$s</strong>',
 	'LOG_ACP_FBC_GZIP_OPEN_ERROR'			=> '<strong>Kon gzip bestand niet openen: %1$s</strong>',
+	'LOG_ACP_FBC_HTTP_ERROR'				=> '<strong>Kan bestand niet downloaden: %1$s. Er is een onverwachte HTTP foutcode %1$s opgetreden.</strong>',	
 	'LOG_ACP_FBC_MAXMIND_ERROR'				=> '<strong>Een oproep naar de MaxMind landcode database leidde tot een fout. De database is waarschijnlijk corrupt.</strong>',
 	'LOG_ACP_FBC_READ_FILE_ERROR'			=> '<strong>Geen leesrechten voor bestand: %1$s</strong>',
 	'LOG_ACP_FBC_TARBALL_MOVE_ERROR'		=> '<strong>Kon bestand niet verplaatsen: %1$s</strong>',
